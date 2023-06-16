@@ -13,6 +13,7 @@ import { join } from 'path';
       autoLoadModels: true,
       synchronize: true,
     }),
+    TweetsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
